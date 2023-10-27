@@ -1,0 +1,59 @@
+@import url(style.css);
+.inline-container {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+.plastic-karambitspinner-image {
+  width: 530px  ;
+}
+.price {
+  color:red;
+  font-size: 40px;
+}
+
+.ex-price {
+text-color: black;
+}
+.price-container {
+  display: flex;
+  align-items: baseline
+}
+.product-informations-container{
+  margin-top: 24px;
+  display: flex;
+  line-height: 2;
+  margin-left: 20px;
+}
+.page-container{
+  margin: 0px auto 0
+}
+.product-images-container{
+  margin-top: 24px;
+}
+.title-black {
+  font-size: 40px;
+  color: black;
+  }
+.inline-container {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  }
+ .list-inline {
+  list-style-type: square;
+  padding-left: 15px;
+  }
+  .product-informations-container-metal{
+    line-height: 0.2;
+  }
+
+.product-informations-container{
+  display: flex;
+  border-radius: 4px;
+  width: 525px;
+  background-color: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.22);

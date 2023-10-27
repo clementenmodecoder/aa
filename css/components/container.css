@@ -1,0 +1,31 @@
+
+.container {
+  width: 1364px;
+  padding: 20px;
+  margin-top: 70px;
+  margin-inline: auto;
+  display: flex;
+  background-color: darkred;
+  align-items: center;
+  justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette CSS sera lue */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette CSS sera lue */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette CSS sera lue */
+  .container {
+    width: 300px;
+  }
+}

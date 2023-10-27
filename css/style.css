@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:300,400,700");
+body {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/background.jpg);
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  -webkit-text-fill-color: white; /* propriété qu j'ai trouvé sur le site https://kinsta.com/fr/blog/contour-texte-css/ qui permet d'ajouter des contours au texte */
+  -webkit-text-stroke: 1.5px black;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+h3 {
+   font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 24px;
+}
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: lightgreen;
+  font-size: 30px;
+  padding: 15px;
+  margin-top: 0;
+}
+p {
+  color: white;
+  margin-top: 0;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.button-blue {
+  padding: 13.6px 8px;
+  background-color: #2A5371;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+}
+.button-blue:hover {
+  transition-duration: 0.4s;
+  transform: scale(1.11);
+}
+.text-container {
+  width: 100%;
+  background-color: ;
+  border-radius: 4px;
+}
+.button-grey {
+  padding: 13.6px 20px;
+  background-color: grey;
+  text-align: center;
+  color: darkred;
+  font-weight: 530px;
+  border-radius: 4px;
+}
+.global-container {
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 1091.2px;
+  padding: 16px;
+  margin: 0px auto 0;
+  border-radius: 4px;
+  display: flex;
+  padding-top: 17px;
+  background-image: url(../images/fidget-spinner.jpg);
+  background-color: gray;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.22);
+}
+.card-enormous {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #2A5371;
+  margin-left: 210px;
+  margin-bottom: 20px;
+  margin-right: 210px;
+  padding: 35px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.22);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+.logo-reduit {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 30px
+}
+
+.plastic-karambitspinner {
+  width: 300px;
+  border-radius: 4px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 21px;
+  margin-right: 21px;
+  border-radius: 4px;
+  background-color: lightgrey;
+  padding: 24px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.22);
+}
+.banner {
+  background-color: #2A5371;
+  color: white;
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  }
+    .banner-top {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: inline;
+    background-color: #2A5371;
+    color: white;
+    height: 75px;
+    width: 100%;
+  }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .inline-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
