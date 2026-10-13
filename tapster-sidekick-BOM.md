@@ -93,6 +93,63 @@ Paramètres de mouvement :
 
 ---
 
+## 6. Liens d'achat et estimation du prix
+
+Prix relevés en octobre 2026 dans les résultats de recherche web. Ils sont
+indicatifs et peuvent avoir changé : vérifiez chaque fiche avant de commander.
+Ce sont des prix TTC hors frais de port, sauf mention contraire. Un « ~ »
+signale un montant sans lien précis, estimé à partir d'offres comparables.
+
+### Par robot
+
+| Qté | Composant | Lien | Prix unitaire | Total |
+|---:|---|---|---:|---:|
+| 1 | Arduino Uno R3 officiel (A000066) | [LDLC](https://www.ldlc.com/fr-be/fiche/PB00733969.html) | 24,95 € | 24,95 € |
+| 1 | CNC Shield V3 + 4 drivers A4988 (Joy-It ARD-CNC-Kit1) | [Electrokit](https://www.electrokit.com/en/cnc-shield-v3-for-arduino-uno-r3/r4-incl-4x-a4988-stepper-motor-driver) | ~17 € (189 SEK) | 17,00 € |
+| 3 | NEMA 17 17HS4401S (1,5 A, 40 N·cm) | [openelab](https://openelab.io/fr/products/hanpose-nema17-42mm-12v-stepper) | 7,05 € | 21,15 € |
+| 1 | Solénoïde JF-0530B 12 V push-pull | [eBay.de](https://www.ebay.de/itm/155038167157) | 4,89 € | 4,89 € |
+| 1 | Module MOSFET IRF520 (lot de 5) | [eBay](https://www.ebay.com/itm/5PCS-MOSFET-Button-IRF520-MOSFET-Driver-Module-For-Arduino-ARM-Raspberry-pi-NEW/173508314967) | 3,17 € le lot | 3,17 € |
+| 1 | Alimentation 12 V 3 A, jack 5,5 × 2,1 mm | [eBay.de](https://www.ebay.de/itm/190850475654) | 12,95 € | 12,95 € |
+| 3 | Fins de course micro-switch (lot de 3) | [eBay.de](https://www.ebay.de/itm/313147119082) | 8,25 € le lot | 8,25 € |
+| 1 | Câble USB A–B | (n'importe quel revendeur) | ~3 € | 3,00 € |
+| 4 | Roulement 623ZZ (3 × 10 × 4 mm) | [Olimex](https://olimex.com/Products/Robot-CNC-Parts/Bearings/623ZZ) | 0,70 € | 2,80 € |
+| 2 | Moyeu à flasque pour arbre 5 mm | [Grobotronics](https://grobotronics.com/shaft-hub-5mm.html?sl=en) | ~1,70 € | 3,40 € |
+| 1 | Assortiment de vis/écrous/rondelles M3 | (Amazon, Leroy Merlin…) | ~10 € | 10,00 € |
+| 1 | Stylet capacitif à pointe caoutchouc (pour l'embout) | [Kaufland](https://www.kaufland.fr/product/502657041/) | 4,79 € | 4,79 € |
+| | **Sous-total par robot** | | | **≈ 116 €** |
+
+### Commun (une seule fois)
+
+| Qté | Composant | Lien | Prix |
+|---:|---|---|---:|
+| 1 | Filament PETG 1 kg 1,75 mm (suffit pour 2 robots) | [Powerplanet – ELEGOO Rapid PETG](https://www.powerplanetonline.com/fr/elegoo-rapid-petg-blanc-filament-175mm-1kg) | 12,95 € |
+| 1 | Plaque de base blanche 10 mm (PVC expansé, alternative au PEHD) | [Bricomarché – 50 × 100 cm](https://www.bricomarche.com/p/plaque-pvc-expanse-blanc-blanc-e-10-mm-l-50-cm-l-100-cm-surface-m2-0.5/3068752204067) | ~20 € |
+| | **Sous-total commun** | | **≈ 33 €** |
+
+### Total estimé
+
+| Configuration | Pièces | + Frais de port (estimés) | **Total** |
+|---|---:|---:|---:|
+| 1 robot (tap simple) | ≈ 149 € | ≈ 35 € | **≈ 185 €** |
+| 2 robots (gestes à deux doigts) | ≈ 248 € | ≈ 40 € | **≈ 290 €** |
+
+Pour 2 robots, le lot de MOSFET, l'assortiment M3 et le stylet ne sont achetés
+qu'une fois. Les frais de port sont estimés : on commande chez 8 à 10 vendeurs
+différents, et les vendeurs eBay chinois facturent souvent 4 à 10 € par colis.
+
+**Notes :**
+
+- **Version économique :** un clone d'Arduino Uno (~8 €) à la place de
+  l'original et un shield seul ([Funduinoshop, ~3,18 €](https://funduinoshop.com/en/electronic-modules/interfaces-converters/cnc/a4988-cnc-shield-v3.0-for-arduino-uno-controller))
+  avec des drivers achetés à part font descendre un robot à environ 95 € de
+  pièces.
+- **IRF520 :** ce MOSFET n'est pas « logic-level ». À 5 V sur la grille, il
+  suffit pour un solénoïde d'environ 300 mA, mais un module à IRLZ44N ou
+  AOD4184 est plus fiable.
+- **Coût non compté :** l'impression 3D, si tu n'as pas d'imprimante.
+
+---
+
 ## Ce qui reste inconnu
 
 - Fichiers CAO/STL des pièces imprimées (non publiés).
